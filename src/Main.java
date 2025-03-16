@@ -25,7 +25,7 @@ public class Main {
 
         System.out.println("Задание 5");
         for (int q4 = 1904; q4 <= 2096; q4 = q4 + 4) {
-            System.out.println(+q4 + " год является високосным");
+            System.out.println(q4 + " год является високосным");
         }
 
         System.out.println("Задание 6");
@@ -45,13 +45,12 @@ public class Main {
             total = total + sum;
             System.out.println("Месяц " + (i + 1) + ", сумма накоплений равна " + total + " рублей");
         }
-        System.out.println("Сумма годовых накоплений " + total + " рублей"); // для себя вывел инфу
 
         System.out.println("Задание 9");
         int sum1 = 29000;
         double total1 = 0;
         for (int i = 0; i < 12; i = i + 1) {
-            total1 = total1 + sum1 + (total1 + sum1) /100;
+            total1 = total1 + sum1 + (total1 + sum1) * 0.01;
             System.out.println("Месяц " + (i + 1) + ", сумма накоплений равна " + total1 + " рублей");
         }
 
@@ -61,5 +60,7 @@ public class Main {
             System.out.println(namber + "*" + i + "=" + namber * i);
         }
 
+
     }
+
 }
