@@ -1,5 +1,3 @@
-import java.util.stream.IntStream;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -9,7 +7,7 @@ public class Main {
         }
 
         System.out.println("Задание 2");
-        for (int q1 = 10; q1 >= 0; q1 = q1 - 1) {
+        for (int q1 = 10; q1 >= 0; q1--) {
             System.out.println(q1);
         }
 
@@ -19,7 +17,7 @@ public class Main {
         }
 
         System.out.println("Задание 4");
-        for (int q3 = 10; q3 >= -10; q3 = q3 - 1) {
+        for (int q3 = 10; q3 >= -10; q3--) {
             System.out.println(q3);
         }
 
@@ -41,7 +39,7 @@ public class Main {
         System.out.println("Задание 8");
         int sum = 29000;
         double total = 0;
-        for (int i = 0; i < 12; i = i + 1) {
+        for (int i = 0; i < 12; i ++) {
             total = total + sum;
             System.out.println("Месяц " + (i + 1) + ", сумма накоплений равна " + total + " рублей");
         }
@@ -49,15 +47,15 @@ public class Main {
         System.out.println("Задание 9");
         int sum1 = 29000;
         double total1 = 0;
-        for (int i = 0; i < 12; i = i + 1) {
+        for (int a = 0; a < 12; a = a + 1) {
             total1 = total1 + sum1 + (total1 + sum1) * 0.01;
-            System.out.println("Месяц " + (i + 1) + ", сумма накоплений равна " + total1 + " рублей");
+            System.out.println("Месяц " + (a + 1) + ", сумма накоплений равна " + total1 + " рублей");
         }
 
         System.out.println("Задание 10");
-        int namber = 2;
+        int number = 2;
         for (int w = 1; w <= 10; w = w + 1) {
-            System.out.println(namber + "*" + w + "=" + namber * w);
+            System.out.println(number + "*" + w + "=" + number * w);
         }
 
 
