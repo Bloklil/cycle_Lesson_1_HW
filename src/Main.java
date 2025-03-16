@@ -51,7 +51,7 @@ public class Main {
         int sum1 = 29000;
         double total1 = 0;
         for (int i = 0; i < 12; i = i + 1) {
-            total1 = total1 + sum1 + (total1 + sum1) * 0.01;
+            total1 = total1 + sum1 + (total1 + sum1) /100;
             System.out.println("Месяц " + (i + 1) + ", сумма накоплений равна " + total1 + " рублей");
         }
 
