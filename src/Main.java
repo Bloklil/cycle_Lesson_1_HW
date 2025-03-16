@@ -56,8 +56,8 @@ public class Main {
 
         System.out.println("Задание 10");
         int namber = 2;
-        for (int i = 1; i <= 10; i = i + 1) {
-            System.out.println(namber + "*" + i + "=" + namber * i);
+        for (int w = 1; w <= 10; w = w + 1) {
+            System.out.println(namber + "*" + w + "=" + namber * w);
         }
 
 
